@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.dhbw.mdse</groupId>
+  <artifactId>ugly_project_step1</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+
+  <!-- More Project Information -->
+  <name>ugly_project_step1</name>
+  <description>This shows a very basic maven Project</description>
+  <url>https://github.com/PatrikSteuer/mdse</url>
+  <inceptionYear>2018</inceptionYear>
+  <organization>
+    <name>Private Org</name>
+    <url>https://url-of-an-org.com</url>
+  </organization>
+  <developers>
+    <developer>
+      <name>Developer 1</name>
+    </developer>
+    <developer>
+      <name>Developer 2</name>
+    </developer>
+  </developers>
+
+  <!-- Dependencies -->
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-all</artifactId>
+      <version>1.9.5</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
