@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="com.dhbw.mdse.ugly_project.lib.MathFunctionsTest" time="0.004" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="com.dhbw.mdse.ugly_project.lib.PrintMathFunctionsTest" time="0.077" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2018.2.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -62,8 +62,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.dhbw.mdse.ugly_project.lib.MathFunctionsTest" name="subtract" time="0.003"/>
-  <testcase classname="com.dhbw.mdse.ugly_project.lib.MathFunctionsTest" name="divide" time="0"/>
-  <testcase classname="com.dhbw.mdse.ugly_project.lib.MathFunctionsTest" name="add" time="0.001"/>
-  <testcase classname="com.dhbw.mdse.ugly_project.lib.MathFunctionsTest" name="multiply" time="0"/>
+  <testcase classname="com.dhbw.mdse.ugly_project.lib.PrintMathFunctionsTest" name="subtract" time="0.077"/>
+  <testcase classname="com.dhbw.mdse.ugly_project.lib.PrintMathFunctionsTest" name="divide" time="0"/>
+  <testcase classname="com.dhbw.mdse.ugly_project.lib.PrintMathFunctionsTest" name="add" time="0"/>
+  <testcase classname="com.dhbw.mdse.ugly_project.lib.PrintMathFunctionsTest" name="multiply" time="0"/>
 </testsuite>

@@ -32,6 +32,6 @@ public class MathFunctionsTest {
 
     @Test
     public void multiply() {
-        assertThat(functions.multiply(4, 1 ), is(4));
+        assertThat(functions.Multiply(4, 1 ), is(4));
     }
 }
