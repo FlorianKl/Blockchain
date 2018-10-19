@@ -6,15 +6,15 @@ public class MathFunctions {
         return var1 + var2;
     }
 
-    public int subtract(final int var1, final int var2) {
+    public int subtract( int var1, final int var2) {
         return var1 - var2;
     }
 
-    public int divide(final int var1, final int var2) {
+    public int divide( int var1, final int var2) {
         return var1 / var2;
     }
 
-    public int Multiply(final int var1, final int var2) {
+    public int Multiply( int var1, final int var2) {
         return var1 * var2;
     }
 }

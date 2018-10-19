@@ -5,6 +5,9 @@ import java.io.PrintStream;
 /**
  * Class to perform basic math operations
  * and print them by default to standard out.
+ *
+ * @author John Doe
+ * @version 1.0
  */
 public class PrintMathFunctions {
 
