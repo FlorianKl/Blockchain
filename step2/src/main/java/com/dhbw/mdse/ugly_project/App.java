@@ -12,16 +12,12 @@ public class App {
   }
 
   private static void printCalculations(int var1, int var2) {
-    MathFunctions functions = new MathFunctions    ();
-
+    MathFunctions funcs = new MathFunctions    ();
     System.out.println("First Number: " + var1);
     System.out.println("Second Number: " + var2);
-    int result = var1 + var2;
-    System.out.println("Addition: "+ result);
-    result = var1 - var2;
-    System.out.println("Subtraction: " + result);
-    result = var1 * var2;
-    System.out.println("Multiplication: "                               + result);
+    System.out.println("Addition: "+ funcs.add(var1,var2) );
+    System.out.println("Subtraction: " + funcs.subtract(var1,var2) );
+    System.out.println("Multiplication: "                               + funcs.Multiply(var1,var2));
   }
 
   private static void printLibCalculations(int var1, int var2) {
